@@ -1,0 +1,17 @@
+.header-container {
+  padding: 20px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-container > img {
+  width: 200px;
+  height: 200px;
+}
+
+.header-container > h1 {
+  color: #12b0c9;
+  font-size: 36px;
+}
