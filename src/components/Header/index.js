@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <div className="header-container">
       <img src={portalImage} alt="rick and morty"></img>
-      <h1>Character Finder</h1>
+      <h1>Characters</h1>
     </div>
   );
 };

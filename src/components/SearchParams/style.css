@@ -1,0 +1,40 @@
+.search-params {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px;
+}
+
+.search-params > label {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: var(--color-text);
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.search-params input:focus,
+.search-params input:hover,
+.search-params select:hover,
+.search-params button:hover {
+  cursor: pointer;
+  background-color: var(--color-hover-background);
+}
+
+.search-params input,
+.search-params select,
+.search-params button,
+.search-params option {
+  cursor: pointer;
+}
+.search-params > button {
+  color: var(--color-text);
+  font-size: 25px;
+  font-weight: bolder;
+  border-radius: 20px;
+  padding: 10px;
+  background-color: var(--color-background);
+}
