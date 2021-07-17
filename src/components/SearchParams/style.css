@@ -29,12 +29,19 @@
 .search-params button,
 .search-params option {
   cursor: pointer;
+  height: 30px;
+  width: 200px;
+  border-radius: 10px;
+}
+.search-params input {
+  width: 230px;
 }
 .search-params > button {
+  text-align: center;
   color: var(--color-text);
   font-size: 25px;
   font-weight: bolder;
-  border-radius: 20px;
   padding: 10px;
+  height: 60px;
   background-color: var(--color-background);
 }

@@ -1,7 +1,7 @@
 :root {
   --color-text: #12b0c9;
   --color-background: white;
-  --color-hover-background: #faeff0;
+  --color-hover-background: lightpink;
 }
 * {
   box-sizing: border-box;
@@ -15,6 +15,13 @@ body {
 }
 
 .App {
-  background: ".";
   font-family: sans-serif;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
 }
