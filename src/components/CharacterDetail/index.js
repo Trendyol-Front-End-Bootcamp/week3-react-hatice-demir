@@ -23,6 +23,7 @@ const CharacterDetails = () => {
         episode: json.episode,
       };
       setCharacter(temp_character);
+      console.log(character);
     } catch (error) {
       console.error(error);
     }
@@ -41,7 +42,7 @@ const CharacterDetails = () => {
           status={character.status}
           image={character.image}
         />
-        <p>{`${character.name} has ${character.episode.length} episodes`}</p>
+        <p>{`${character?.name} has ${character?.episode?.length} episodes`}</p>
       </div>
     )
   );
